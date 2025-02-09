@@ -1,0 +1,64 @@
+# Java
+*.class
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.csettings/
+.settings/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Database files
+*.h2.db
+*.mv.db
+
+# Test reports
+/test-output/
+
+# Docker
+*.jar
+docker-compose.override.yml
+
+# Swagger/OpenAPI generated files
+swagger-ui/
+
+# Coverage reports
+/coverage/
+
+# Backup files
+*~
+
+# Dependency directories
+/node_modules/
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore generated files
+/generated/
